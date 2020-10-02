@@ -1,0 +1,34 @@
+body.calendario1{
+    text-align: center;
+    margin-right: 4;
+    border-color: #999999;
+    background: transparent;
+
+}
+
+body .almanaque{
+    box-sizing: border-box; /* 1 */
+    border-style: solid; /* 2 */
+    background: transparent;
+    font-size: 12px;
+    color: gray;
+    width: 230px;
+    height:25px;
+
+}
+body DatePicker{
+position: relative;
+    width: 230px;
+    height:25px;
+   
+}
+
+
+body .boton{
+    background: url(../../../../node_modules/@icons/material/svg/calendar.svg)no-repeat;
+    padding:15px;
+    position: absolute;
+    left:260px ;
+    top: 20px;
+    padding-top: 20px;
+}

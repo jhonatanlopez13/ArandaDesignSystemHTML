@@ -1,0 +1,19 @@
+body.calendario2{
+    box-sizing: border-box;
+    border-style: solid;
+    background: gray;
+    font-size: 12px;
+    width: 230px;
+    height: 25px;
+    background: transparent;
+}
+
+/* body .reloj{
+    background: url(../../../../node_modules/@icons/material/svg//time.svg) no-repeat;
+    padding:12px;
+    position: relative;
+    left: 300px;
+    top:  -24px;
+    padding-bottom: 20px;
+}
+ */
