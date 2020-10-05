@@ -18,11 +18,11 @@ class DateTime extends Component{
     return(
       <>
 
-      <div class="container">
-        <div class="calendario1">
-          <div class="almanaque" >
+      <div className="container">
+        <div className="calendario1">
+          <div className="almanaque" >
             <DatePicker className="border-gray border-2 rounded px-6 py-1"  selected={this.state.fecha}onChange={this.onChange}/>
-            <button class="boton" onClick={()=>this.mostrarFecha(this.state.fecha)}></button>
+            <button className="boton" onClick={()=>this.mostrarFecha(this.state.fecha)}></button>
         </div>
         </div>
       </div>
