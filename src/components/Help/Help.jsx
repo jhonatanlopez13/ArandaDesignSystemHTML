@@ -1,16 +1,16 @@
 import React, {Component} from "react";
-// import "./component.module.css/style.css";
+import "./component.module.css/style.css";
 
 class Help extends Component{
     render(){
         return(
-            // // <>
-            <div><h1>hola mundo </h1></div>
-            // //     <div class="container">
-            // // //         <div class="ayuda" className="bg-gray"></div>
-            // // //         <input type="text"  id="" name=""/>
-            // // //     </div>
-            // // </>
+            <>
+
+             <div class="container">
+                <div className="ayuda" className="bg-gray"></div>
+                <input type="text"  id="" name="" className="border-gray  border px-6 rounded text-gray" />
+              </div>
+            </>
         )
     }
 }

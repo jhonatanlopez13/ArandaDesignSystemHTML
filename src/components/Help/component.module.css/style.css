@@ -1,3 +1,8 @@
 body.ayuda{
     background: url(../../../../node_modules/@icons/material/svg/help-box.svg);
 }
+
+body.ayuda:hover{
+background: gray;
+color: gray;
+}
