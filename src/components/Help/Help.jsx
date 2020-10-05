@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 // import "./component.module.css/style.css";
 
-class Helpbox extends Component{
+class Help extends Component{
     render(){
         return(
             // // <>
@@ -14,4 +14,4 @@ class Helpbox extends Component{
         )
     }
 }
-export default Helpbox;
+export default Help;
