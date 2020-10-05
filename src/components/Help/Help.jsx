@@ -9,6 +9,7 @@ class Help extends Component{
              <div class="container">
                 <div className="ayuda" className="bg-gray"></div>
                 <input type="text"  id="" name="" className="border-gray  border px-6 rounded text-gray" />
+                <h1>hola mundo </h1>
               </div>
             </>
         )
