@@ -1,8 +1,24 @@
-body.ayuda{
-    background: url(../../../../node_modules/@icons/material/svg/help-box.svg);
+body{
+    /* background: url(../../../../node_modules/@icons/material/svg/help1.svg)no-repeat; */
+    padding:15px;
+    position: relative;
+    right: 30px ;
+    top: 4px;
+    padding-top: 20px;   
 }
-
-body.ayuda:hover{
-background: gray;
-color: gray;
+body.ayuda .ayudas{
+    background: url(../../../../node_modules/@icons/material/svg/calendar.svg)no-repeat;
+    padding:15px;
+    position: relative;
+    right: 30px ;
+    top: 4px;
+    padding-top: 20px;   
+} 
+body.texto{
+    text-align: center;
+    background: transparent;
+    height: 25px;
+    width: 240px;
+    font-size: 12px;
+    stroke: #cccccc 1px
 }
