@@ -22,7 +22,7 @@ class DateTime extends Component{
         <div className="calendario1">
           <div className="almanaque" >
             <DatePicker className="border-gray border-2 rounded px-6 py-1"  selected={this.state.fecha}onChange={this.onChange}/>
-            <button className="boton " onClick={()=>this.mostrarFecha(this.state.fecha)}>  </button>
+            <button className="boton  icon-ic_calendar " onClick={()=>this.mostrarFecha(this.state.fecha)}>  </button>
         </div>
         </div>
       </div>
