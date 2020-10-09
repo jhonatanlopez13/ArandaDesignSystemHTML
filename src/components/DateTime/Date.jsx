@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import "./component.module.css/style.css";
+import "./module.css/style.css";
 
 class DateTime extends Component{
   state={
@@ -22,7 +22,7 @@ class DateTime extends Component{
         <div className="calendario1">
           <div className="almanaque" >
             <DatePicker className="border-gray border-2 rounded px-6 py-1"  selected={this.state.fecha}onChange={this.onChange}/>
-            <button className="boton" onClick={()=>this.mostrarFecha(this.state.fecha)}></button>
+            <button className="boton " onClick={()=>this.mostrarFecha(this.state.fecha)}>  </button>
         </div>
         </div>
       </div>

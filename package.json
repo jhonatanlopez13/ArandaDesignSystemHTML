@@ -24,6 +24,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-syntax-highlighter": "^13.5.1",
+    "react-tooltip": "^4.2.10",
     "tailwindcss": "^1.7.3"
   },
   "scripts": {

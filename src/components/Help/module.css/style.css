@@ -1,0 +1,45 @@
+body{
+    padding:15px;
+    position: relative;
+    right: 30px ;
+    top: 4px;
+    padding-top: 20px; 
+    /* background: red;   */
+
+}
+body .ayuda{
+    background: url(../../../../node_modules/@icons/material/svg/help1.svg)no-repeat;
+    left: 15px;
+    background-size: 25px 25px;
+    padding:25px;
+    position: relative;
+    top: 4px;
+    text-align: center;
+    padding-top: 20px;   
+} 
+body .a:hover {
+   display: inline-block;
+}
+
+body #texto::after{   
+    content: "";
+    /* display: block; */
+    border:16px groove #cccccc;
+    border-top: transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: 39px;
+    left: calc(  9.8% - 10px);
+}
+    body #texto{ 
+    font: #999999;
+    border-style: dotted;
+    border-color: #cccccc;
+    border:2px solid #cccccc ;
+    width: 240px;
+    height: 25px;
+} 
+p{
+    color: #999999;
+}

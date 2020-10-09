@@ -1,0 +1,44 @@
+body.calendario1{
+    text-align: center;
+    margin-right: 4;
+    border-color: #999999;
+    background: transparent;
+
+}
+
+body .almanaque{
+    box-sizing: border-box; /* 1 */
+    border-style: 3px solid #999999; /* 2 */
+    background: transparent;
+    color: #999999;
+    width: 230px;
+    height:25px;
+
+}
+body DatePicker{
+position: relative;
+    width: 230px;
+    height:25px;
+    font-size: 12px;
+   text-decoration: none;
+}
+
+
+body .boton{
+    background: url(../../../../node_modules/@icons/material/svg/calendario.svg)no-repeat;
+    padding:15px;
+    position: relative;
+    left:196px ;
+    bottom: 33px;
+    padding-top: 20px;   
+    font-size: 12px;  
+    fill: #999999;
+
+}
+/* @media (min-width: 640px) { 
+    .boton {
+        padding:15px;
+        position: relative;
+        left:195px ;
+}
+} */

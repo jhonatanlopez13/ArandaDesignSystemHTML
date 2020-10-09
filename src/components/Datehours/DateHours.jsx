@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-import "./component.module.css/style.css";
+import "./module.css/style.css";
 
 class DateHours extends Component{
 
