@@ -6,12 +6,13 @@ class Help extends Component{
     render(){
         return(
             <>
-             <div className="container">  
-                    <button className="ayuda"></button><br/>  
-                        <div id="texto" className="rounded">
-                            <p>hola gente </p>
-                        </div>
-              </div>
+
+               <div className></div>
+                <div class="tooltip">
+                    <h1 className="ayuda"></h1>
+                <span class="tooltiptext">Tooltip text</span>
+                </div>
+
             </>
         )
     }

@@ -8,7 +8,7 @@ class DateHours extends Component{
         <>
         
             <div className="container">
-                <input type="datetime-local" className="calendario2 border-gray  border px-6 rounded text-gray"   id="meeting-time" name="meeting-time" value="2018-06-12 19:30" min="2018-06-07 00:00" max="2018-06-14 00:00"></input>
+                <input type="datetime-local" className="calendario2  border-gray  border px-6 rounded text-gray"   id="meeting-time" name="meeting-time" value="2018-06-12 19:30" min="2018-06-07 00:00" max="2018-06-14 00:00"></input>
                 <div className="reloj">
                 </div>
             </div>
