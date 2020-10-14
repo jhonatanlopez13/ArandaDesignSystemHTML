@@ -1,19 +1,20 @@
-.contenedorProgressBar{
-    position: fixed;
-    float: right;
-    bottom: 0;
-    margin-bottom: 30px;
-    height: 53px;
-    right: 0;
-    margin-right: 10px;
-    width: 50%;
-    background-color:white;
-    z-index: 51;
-    border-radius: 5px;
-    border:1px solid gray
+.progresstext{
+	text-align: center;
+
+}
+progress{
+	color: transparent;
+	border: 2px solid #cccc;
+	background: transparent;
+	border-radius: 6px;
+	right: 40px;
 }
 
-.progressText{
-    text-align: center;
-    display: grid; 
+::-moz-progress-bar {
+  background-color: black;
+}
+
+/* Force indeterminate bars to have zero width */
+:indeterminate::-moz-progress-bar {
+  width: 0;
 }
