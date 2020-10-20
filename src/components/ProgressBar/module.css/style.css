@@ -1,6 +1,42 @@
-.progress-bar{
-	width: 140px;
+body {
+	position:  absolute;
 	height: 5px;
-	border: 2px solid #9999;
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: transparent;
+}
+
+.contendor-padre{
+	position: relative;
+	height: 5px;
+	width: 140px;
+	border: 1px solid #cccccc;
 	border-radius: 8px;
+	background: #cccccc;
+
+	
+}
+
+.ProgressBar{
+	position: absolute;
+	top: 0;
+	height: 10px;
+	background:#38b55e;	
+}
+
+.ProgressBar1{
+	position: absolute;
+	top: 0;
+	border-radius: 8px;
+	height: 3px;
+}
+.ProgressBar1.green{
+	background: #ee3557;
+}
+
+.ProgressBar1.red{
+	
+	background: #38b55e;
 }

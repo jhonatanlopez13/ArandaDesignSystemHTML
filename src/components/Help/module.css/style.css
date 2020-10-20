@@ -22,11 +22,11 @@
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    border: 2px solid #999999;
-    width: 120px;
+    border: 1px solid #cccccc;
+    width: 240px;
     background-color: #ffffff;
     color: #999999;
-    text-align: center;
+    text-align:center;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
@@ -41,11 +41,13 @@
     content: "";
     position: absolute;
     bottom: 100%;
-    left: 50%;
-    margin-left: -15px;
+    left: 65px;
+    margin-left: -25px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent gray transparent;
+    border-color: transparent transparent red transparent;
+    border: 1px solid #999999;
+    
   }
   
   .tooltip:hover .tooltiptext {
