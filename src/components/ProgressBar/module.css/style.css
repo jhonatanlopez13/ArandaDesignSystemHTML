@@ -1,20 +1,6 @@
-.progresstext{
-	text-align: center;
-
-}
-progress{
-	color: transparent;
-	border: 2px solid #cccc;
-	background: transparent;
-	border-radius: 6px;
-	right: 40px;
-}
-
-::-moz-progress-bar {
-  background-color: black;
-}
-
-/* Force indeterminate bars to have zero width */
-:indeterminate::-moz-progress-bar {
-  width: 0;
+.progress-bar{
+	width: 140px;
+	height: 5px;
+	border: 2px solid #9999;
+	border-radius: 8px;
 }
