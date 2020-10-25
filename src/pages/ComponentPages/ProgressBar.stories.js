@@ -10,7 +10,7 @@ const Template = (args)=><Progress {...args}/>;
 
 export const Normal = Template.bind({});
 Normal.args = {
-    percent: 1,
+    percent: 0,
 
 };
 

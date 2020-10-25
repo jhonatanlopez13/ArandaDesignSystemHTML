@@ -1,0 +1,107 @@
+.caja{
+    position: relative;
+    height: 20px ;
+    width: 80px;
+    border: 1px solid  #000000;
+    border-radius: 5px;  
+    font-size: 10px;  
+    left: 40px;    
+}
+
+.seguircaso{
+    position: relative;
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+    background: transparent;    
+}
+.caja .tooltips{
+    visibility: hidden;
+    box-shadow: 5px 5px #cccccc;
+    height: 154px;
+    width: 188px;
+    background-color: #cccccc;
+    background: #ffffff;;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: auto;
+    top: 30px;
+    left: -20px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.caja .tooltips::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 65px;
+    margin-left: -30px;
+    flex: grow;
+    border-width: 10px;
+    border-style: solid;
+    box-shadow: 5px 5px transparent transparent #cccccc;
+    border-color: transparent transparent  rgba(192, 192, 192, 0.1);
+}
+    
+
+.caja:hover .tooltips{
+    visibility: visible;
+}
+
+
+/* ----------------casosvencidos-------------------- */
+
+.casosvencidos{
+    position: relative;
+    font-size: 14px;
+    color: #ed1c24;
+    right: 35px;
+    top: 5px;
+    font-size: 14px;
+}
+
+.casosvencidos1{
+    position: relative;
+    height:44px ;
+    width: 168px;
+    background: #f2f2f2;
+    left: 10px;
+    top: 5px;
+    border-radius: 6px;
+}
+
+p.casosvencidos2{
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    width: 168px;
+}
+
+/* ------------------ casos por vencer---------------*/
+.casosporvencer{
+    position: relative;
+    font-size: 10px;
+    color: #f79521;
+    right: 25px;
+    top: 8px;
+    font-size: 14px;
+}
+.casosporvencer1{
+    position: relative;
+    height:44px ;
+    width: 168px;
+    background: #f2f2f2;
+    left: 10px;
+    top: 8px;
+}
+
+p.casosporvencer2{
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    width: 168px;
+    border-radius: 6px;
+}
