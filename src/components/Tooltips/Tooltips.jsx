@@ -16,7 +16,7 @@ class Tooltips extends Component{
                         {/* casos por vencerse */}
                         <h1 className="casosporvencer">Casos Por Vencer</h1>
                         <div className="casosporvencer1">
-                        <p className="casosporvencer2">El progreso del caso está dentro del 80% y el 99%</p> 
+                        <p className="casosporvencer2">El progreso del caso está dentro del 80% y el 99%c</p> 
                         </div>                
                      </span>
                 </div>

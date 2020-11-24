@@ -8,6 +8,7 @@ export default function Progress ({percent}) {
   const [anchura, setAnchura] = useState(0);
   const [color, setColor] = useState('green');
   const [color1, setcolor1] =useState('green1');
+
   useEffect(() => {
     setAnchura(percent);
     if(percent > 59 ){
@@ -32,12 +33,14 @@ export default function Progress ({percent}) {
 
   return(
     <div className="contendor-padre">
-     <div>
-       <h1  className={'ProgressBar1 '+color1} style={{width: anchura + "%" }}></h1>
+      <div className="h1">
+  <h1  className={'ProgressBar1 '+color1} style={{width: anchura + "%" }}>{percent}</h1>
       </div>
       <span className={'ProgressBar1 '+color} style={{width: anchura + "%" }}></span>
     </div>
   );
+
+ 
 }
 
 

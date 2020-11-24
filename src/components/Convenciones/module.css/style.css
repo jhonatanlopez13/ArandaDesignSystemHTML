@@ -1,0 +1,134 @@
+.rectangulo{
+    height: 25px;
+    width: 183px;
+    background: #cccccc;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.ayudas{
+    background: url("../../../../node_modules/@icons/material//svg/help1.svg") no-repeat;
+    position: relative;
+    background-size: 14px 14px;
+    padding: 25px;
+    height: 25px;
+    left: 5px;
+    top: 5px;
+}
+
+.rectangulo .tool{
+    visibility: hidden;
+    height: 154px;
+    width: 188px;
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    background-color: #cccccc;
+    background: #8a7e7e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: auto;
+    top:  60px;
+    left: 29px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.rectangulo .tool::after{
+    content: "";
+    position: absolute;
+    bottom: 154px;
+    left: 65px;
+    margin-left: -30px;
+    flex: grow;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent  rgba(204, 204, 204, 0.2);
+    box-shadow: 5px 5px 5px 5px transparent transparent rgba(204, 204, 204, 0.2); 
+}
+
+.rectangulo:hover .tool{
+    visibility: visible;
+}
+
+/* -----------------------------vencidos-------------------------------- */
+.vencidos{
+    background: url("../../../../node_modules/@icons/material/svg/vencidos.svg") no-repeat;
+    position: relative;
+    background-size: 14px 14px;
+    padding: 25px;
+    text-decoration: none;
+    left: 24px;
+    bottom: 45px;
+}
+
+.vencido{
+    position: relative;
+    font-size: 12px;
+    right: 10px;
+    bottom:28px;
+    color: #ed1c24;
+}
+
+
+
+
+.casosvencidos1{
+    position: relative;
+    height:44px ;
+    width: 168px;
+    background: #f2f2f2;
+    left: 10px;
+    top: 5px;
+    border-radius: 6px;
+}
+
+p.casosvencidos2{
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    width: 168px;
+}
+/*---------------------------vencer------------------------------------*/
+
+
+
+
+.vencer{
+    background: url("../../../../node_modules/@icons/material/svg/porvencer.svg") no-repeat;
+    position: relative;
+    background-size: 14px 14px;
+    padding: 1px;
+    height: 25px;
+    width: 25px;
+    text-decoration: none;
+    left: 99px;
+    bottom: 114px;
+}
+.vence{
+    color: #f7831e;
+    position: relative;
+    font-size: 12px;
+    height: 5px;
+    width: 60px;
+    left: 15px;
+    bottom: 3px;
+}
+
+.casosporvencer1{
+    position: relative;
+    height:44px ;
+    width: 168px;
+    background: #f2f2f2;
+    left: 10px;
+    top: 8px;
+}
+
+p.casosporvencer2{
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    width: 168px;
+    border-radius: 6px;
+}

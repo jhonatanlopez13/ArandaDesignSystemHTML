@@ -17,7 +17,7 @@
 }
 .caja .tooltips{
     visibility: hidden;
-    box-shadow: 5px 5px #cccccc;
+    box-shadow: 5px 5px 5px 5px  #cccccc;
     height: 154px;
     width: 188px;
     background-color: #cccccc;
@@ -36,14 +36,14 @@
 .caja .tooltips::after{
     content: "";
     position: absolute;
-    bottom: 100%;
+    bottom: 154px;
     left: 65px;
     margin-left: -30px;
     flex: grow;
     border-width: 10px;
     border-style: solid;
-    box-shadow: 5px 5px transparent transparent #cccccc;
-    border-color: transparent transparent  rgba(192, 192, 192, 0.1);
+    border-color: transparent transparent  rgba(204, 204, 204, 0.2);
+    box-shadow: 5px 5px 5px 5px transparent transparent rgba(204, 204, 204, 0.2);
 }
     
 

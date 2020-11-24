@@ -1,12 +1,12 @@
 import React from 'react';
-import Progress from '../../components/ProgressBar';
+import Esqueleton from '../../components/Esqueleton';
 
-export default {title:"Progress", component: Progress, argTypes:{
+export default {title:"Esqueleton", component: Esqueleton, argTypes:{
     percent: {control:"text", type:{ name: "number", reqired: true}}
 
 }};
 
-const Template = (args)=><Progress {...args}/>;
+const Template = (args)=><Esqueleton {...args}/>;
 
 export const Normal = Template.bind({});
 Normal.args = {

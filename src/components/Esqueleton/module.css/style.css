@@ -1,0 +1,403 @@
+*{
+  position: relative;
+  left: 3px;
+}
+.skeleton-wrapper{ 
+  position: relative;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 240px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+.skeleton-wrapper1{ 
+  position: relative;
+  top: 14px;
+  background:  #eee;
+  height: 100px;
+  width: 520px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight1{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton1 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator1{
+  background: #f5f5f5;
+  height: 520px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+.skeleton-wrapper1-2{ 
+  position: relative;
+  top:20px ;
+  background:  #eee;
+  height: 100px;
+  width: 520px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton1-2 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator1-2{
+  background: #f5f5f5;
+  height: 520px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+.skeleton-wrapper1-3{ 
+  position: relative;
+  top:30px ;
+  background:  #eee;
+  height: 100px;
+  width: 520px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton1-3 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator1-3{
+  background: #f5f5f5;
+  height: 520px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+.skeleton-wrapper1-4{ 
+  position: relative;
+  top:40px ;
+  background:  #eee;
+  height: 100px;
+  width: 520px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton1-4 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator1-4{
+  background: #f5f5f5;
+  height: 520px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+
+.skeleton-wrapper{ 
+  position: relative;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 240px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+.skeleton-wrapper2{ 
+  position: relative;
+  left: 540px;
+  bottom: 388px;
+  background:  #e8e8e8;
+  height: 40px;
+  width: 540px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton2 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator2{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ----------------------------------------------------- */
+
+
+.skeleton-wrapper3{ 
+  position: relative;
+  left: 540px;
+  bottom: 380px;
+  background:  #e8e8e8;
+  height: 425px;
+  width: 540px;
+
+  overflow: hidden;
+}
+
+@keyframes leftToRight2{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton3{
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator3{
+
+  background: #f5f5f5;
+  height: 520px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ---------------------------------------------- */
+
+.skeleton-wrapper4{ 
+  position: relative;
+  left: 540px;
+  bottom: 888px;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton4 {
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator4{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ---------------------------------------------- */
+
+.skeleton-wrapper5{ 
+  position: relative;
+  left: 373px;
+  bottom: 913px;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton5{
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator5{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ---------------------------------------------- */
+
+.skeleton-wrapper5{ 
+  position: relative;
+  left:1010px;
+  bottom: 395px;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 70px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton5{
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator5{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
+
+/* ---------------------------------------------- */
+
+.skeleton-wrapper6{ 
+  position: relative;
+  left:930px;
+  bottom: 420px;
+  background:  #e8e8e8;
+  height: 25px;
+  width: 70px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes leftToRight{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(100%);
+  }
+}
+
+.skeleton6{
+  height: 10px;
+  transform: translate(100%);
+  animation: 5s leftToRight linear infinite;
+}
+
+.skeleton-incicator6{
+  background: #f5f5f5;
+  height: 39px;
+  box-shadow: 0 0 5px 5px #666;
+}
